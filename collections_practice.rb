@@ -1,3 +1,4 @@
+require 'pry'
 
 def sort_array_asc(array)
    array.sort
@@ -50,8 +51,7 @@ end
 def add_s(array)
   array.each do |i|
    if i !=  array[1]
-    i.split()
     i[i.length]="s"
    end
- end
+  end
 end
