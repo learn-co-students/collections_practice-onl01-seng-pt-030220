@@ -50,11 +50,22 @@ def find_a(array)
   array.select do |word|
     word.start_with?("a")
   end
+  # array.find_all do |word|
+  #   word[0] == "a"
+  # end
 end
 
 
 def sum_array(ints)
   ints.inject { |sum, num| sum + num }
+
+  # ints.inject(:+)
+
+  # sum = 0
+  # ints.each do |num|
+  #   sum += num
+  # end
+  # sum
 end
 
 
