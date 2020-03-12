@@ -23,22 +23,22 @@ def reverse_array(a)
 end
 
 def kesha_maker(boom)
-    i = 0
-    new_array= []
-    while i < boom.length
-      yield boom[i]
-      new_array<< boom[i]
-      i = i+1
-    end
-    new_array
+    boom.each do |e|
+      e[2] = "$"
+      end
   end
 
-  method(boom) do
-  i = 0
-    while i < boom.length
-      boom.each do |a|
-      boom[i][2]= "$"
-      i+=1
-      end
-    end
+def find_a (string)
+  string.select { |a| a.start_with? "a"}
+end
+
+def sum_array(array)
+array.sum
+end
+
+def add_s(w)
+  w.each do |a|
+    next if a == w[1]
+  a[-1] = a[-1]+"s"
+  end
   end
