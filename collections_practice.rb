@@ -19,20 +19,20 @@ def sort_array_char_count(array)
   end
 end
 
-sort_array_char_count(["chayan", "maria", "antionette"])
+sort_array_char_count(["yurrr", "Pacman", "Freddy Fazzbear"])
 
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
 end
 
-swap_elements(["chayan", "maria", "antionette"])
+swap_elements(["Yurrr", "Pacman", "Freddy Fazzbear"])
 
 def reverse_array(array)
   array.reverse
 end
 
-reverse_array(["chayan", "maria", "antionette"])
+reverse_array(["Mike", "Charlie", "Afton"])
 
 def kesha_maker(array)
   array.each do |item|
@@ -40,7 +40,7 @@ def kesha_maker(array)
   end
 end
 
-kesha_maker(["chayan", "maria", "antionette"])
+kesha_maker(["dime", "queloque", "contigo"])
 
 def find_a(array)
   array.find_all do |word|
@@ -48,7 +48,7 @@ def find_a(array)
   end
 end
 
-find_a(["apple", "string", "rock", "avis", "length", "andere" ])
+find_a(["un", "do", "tre", "qua", "boom", "ayee" ])
 
 def sum_array(array)
    array.inject(:+)
@@ -66,4 +66,4 @@ def add_s(array)
   end
 end
 
-add_s(["chest","lick","rock","toy"])
+add_s(["Bonny","Chica","Freddy","Foxy"])
